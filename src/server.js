@@ -21,7 +21,7 @@ require('dotenv').config(); // load environment variables
 
 // database setup
 // || 'mongodb://localhost/lc19x';
-const mongoURI = "mongodb+srv://lc19x:lastchances19x@lc19x-nfyrs.mongodb.net/lc19x";
+const mongoURI = "mongodb+srv://im_the_admin:last_chanc3s_0fficIal@cluster0.i5gr2.mongodb.net/LastChances?retryWrites=true&w=majority";
 mongoose.connect(mongoURI,{ useNewUrlParser: true });
 
 mongoose.connection.on("open", function(ref) {
