@@ -9,7 +9,7 @@ const router = Router();
 
 
 router.route('/logout').get((req, res) => {
-  res.send('Thanks for visiting last chances 19x!');
+  res.send('Thanks for visiting last chances 21x!');
 });
 
 
